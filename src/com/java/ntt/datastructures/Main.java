@@ -1,4 +1,5 @@
-package com.java.ntt.dataStructures;
+package com.java.ntt.datastructures;
+
 
 public class Main {
 
