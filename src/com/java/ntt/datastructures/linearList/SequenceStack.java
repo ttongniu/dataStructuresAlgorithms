@@ -1,4 +1,4 @@
-package com.java.ntt.datastructures.linearList;
+package com.java.ntt.datastructures.linearlist;
 
 /**
  * @author niutongtong
