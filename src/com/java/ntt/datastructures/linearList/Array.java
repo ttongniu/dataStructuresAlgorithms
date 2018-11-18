@@ -1,4 +1,4 @@
-package com.java.ntt.datastructures.linearlist;
+package com.java.ntt.dataStructures.linearList;
 
 /**
  * @author niutongtong
@@ -253,8 +253,9 @@ public void  removeElement(E e){
     res.append('[');
     for(int i =0;i<size;i++){
       res.append(data[i]);
-      if(i!=size-1)
+      if(i!=size-1) {
         res.append(",");
+      }
     }
     res.append(']');
     return res.toString();
