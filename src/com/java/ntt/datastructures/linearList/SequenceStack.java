@@ -7,6 +7,8 @@ package com.java.ntt.datastructures.linearlist;
  * @Description:  顺序栈(SqStack)一般用数组来实现，主要有四个元素：2状态2操作。
  * 2状态：栈空？；栈满？
  * 2操作：压栈push；弹栈pop。
+ *
+ *
  * @date 2018/11/189:06 PM
  */
 public class SequenceStack<T> {
