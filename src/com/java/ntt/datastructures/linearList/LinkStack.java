@@ -32,8 +32,8 @@ public class LinkStack<T> {
   　　* @date 2018/11/18 10:04 PM
   　　*/
   private void  initStack(){
-    this.top.data=null;
-    this.top.next=null;
+    this.top.setData(null);
+    this.top.setNext(null);
   }
 
   /**
@@ -46,7 +46,7 @@ public class LinkStack<T> {
   　　*/
 
   public boolean isEmpty(){
-    return top.next==null?true:false;
+    return top.getNext()==null?true:false;
   }
  /**
  　　* @Description: 压栈
@@ -86,49 +86,5 @@ public class LinkStack<T> {
       return  node;
     }
  }
-
-
-  class LinkNode<T>{
-    /**
-     * 数据域
-     */
-    private T data;
-    /**
-     * 指针域
-     */
-    private LinkNode<T> next;
-
-    public LinkNode(){
-      this.data=null;
-      this.next=null;
-    }
-
-    public  LinkNode(T t){
-      super();
-      this.data=t;
-      this.next=null;
-    }
-
-
-    public T getData() {
-      return data;
-    }
-
-    public void setData(T data) {
-      this.data = data;
-    }
-
-    public LinkNode<T> getNext() {
-      return next;
-    }
-
-    public void setNext(LinkNode<T> next) {
-      this.next = next;
-    }
-
-
-  }
-
-
 
 }

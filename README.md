@@ -52,3 +52,6 @@
 （1）A + C ≡ B + C(mod N)
 
 （2）AD ≡ BD (mod N)
+
+
+
